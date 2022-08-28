@@ -1,0 +1,50 @@
+h2{
+    text-align: center;
+    color: darkcyan;
+    background-color: azure;
+    font-size: 4rem;
+    padding: 5px 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    font-size: 50px;
+    padding: 10px;
+    color: rgb(17, 32, 167);
+}
+
+.btn {
+    background: none;
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  
+  .up {
+    animation: up 0.5s ease;
+    position: relative;
+  }
+  
+  .down {
+    animation: down 0.5s ease;
+    position: relative;
+  }
+
+ 
